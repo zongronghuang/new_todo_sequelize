@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "install": "npm install express express-handlebars method-override bcryptjs express-session passport passport-local mysql2 sequelize sequelize-cli",
+    "install": "npm install express express-handlebars connect-flash method-override bcryptjs express-session passport passport-local mysql2 sequelize sequelize-cli",
     "start": "node app.js",
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
     "express-session": "^1.17.1",
