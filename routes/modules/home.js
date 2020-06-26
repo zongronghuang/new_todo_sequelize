@@ -20,7 +20,7 @@ router.get('/', (req, res) => {
       console.log(todos)
       return res.render('index', { todos })
     })
-    .catch(error => console.log(erro))
+    .catch(error => console.log(error))
 })
 
 module.exports = router
